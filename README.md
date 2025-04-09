@@ -1,6 +1,6 @@
 # Registration & Login Form 🌟
 
-![Project Preview](https://rj9884.github.io/registration-form/)
+![Project Preview](https://github.com/rj9884/registration-form/blob/main/screenshot_UI.png)
 
 A visually appealing **Sign Up & Sign In Form** built with HTML, CSS, and JavaScript. Features include interactive form animations, password suggestions, and a mobile-friendly design.
 
@@ -16,7 +16,7 @@ A visually appealing **Sign Up & Sign In Form** built with HTML, CSS, and JavaSc
 - **Font Awesome** icons
 
 ## 📸 Demo
-![Form Demo](https://via.placeholder.com/900x300.gif?text=Form+Interaction)
+![Form Demo](https://rj9884.github.io/registration-form/)
 
 ## ⚙️ How to Use
 1. Clone the repository.
