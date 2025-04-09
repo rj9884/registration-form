@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: url(images.jpeg);
+    background: url(background_img.jpeg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,32 +17,33 @@
 }
 
 .form-box {
-    width: 90%;
+    width: 100%;
     max-width: 450px;
     min-width: 350px;
-    background: white;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.2);
     padding: 55px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 1rem;
     box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .form-box h2 {
     font-size: 1.5rem;
-    color: green;
+    color: rgb(245, 141, 6);
 }
 
 .form-box .underline {
     width: 20px;
     height: 4px;
-    background-color: green;
+    background-color: rgb(245, 141, 6);
     border-radius: 10px;
     margin: 5px auto 50px auto;
     transition: transform 0.5s;
 }
-
 .input-field {
-    background-color: #eaeaea;
+    background-color: rgba(255, 255, 255, 0.6);
     margin: 15px 0;
     display: flex;
     align-items: center;
@@ -64,17 +65,22 @@
 
 .input-field i {
     margin-left: 15px;
-    color: #999;
+    color: rgba(0, 0, 0, 0.6);
 }
+::placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
+
 
 .form-box p {
     text-align: left;
     font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .form-box p a {
     text-decoration: none;
-    color: green;
+    color: rgb(245, 141, 6);
 }
 
 .btn-field {
@@ -88,7 +94,7 @@
     flex-basis: 48%;
     height: 40px;
     border-radius: 20px;
-    background: green;
+    background: rgb(245, 141, 6);
     color: white;
     border: 0;
     outline: 0;
@@ -101,6 +107,6 @@
 }
 
 button.disable {
-    background: #eaeaea;
-    color: #555;
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.9);
 }
