@@ -16,7 +16,7 @@ A visually appealing **Sign Up & Sign In Form** built with HTML, CSS, and JavaSc
 - **Font Awesome** icons
 
 ## 📸 Demo
-![Form Demo](https://rj9884.github.io/registration-form/)
+![Form Demo](https://github.com/rj9884/registration-form/blob/main/demo.png)
 
 ## ⚙️ How to Use
 1. Clone the repository.
